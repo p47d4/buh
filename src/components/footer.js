@@ -9,7 +9,7 @@ const footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-4 footer-contact">
-                        <h3>Baze University Teaching Hospital<span>.</span></h3>
+                        <h3>Baze University Hospital<span>.</span></h3>
                             <p>
                             Plot 606 Cadastral Zone, <br />
                             Behind National Judicial Institute,<br />
@@ -22,10 +22,10 @@ const footer = () => {
                         <div className="col-lg-4 col-md-4 footer-contact">
                         <h4>For Patients</h4>
                             <div className="footer-links mt-3">
-                                <a href="#" className="facebook">Wallet TopUP</a>
-                                <a href="/appointment" className="facebook">Appointment</a>
-                                <a href="#" className="facebook">Lab Request*</a>
-                                <a href="#" className="facebook">Imaging Request*</a>
+                                {/* <a href="#" className="facebook">Wallet TopUP</a> */}
+                                <a href="/appointment" className="facebook"> Book Appointment</a>
+                                {/* <a href="#" className="facebook">Lab Request*</a>
+                                <a href="#" className="facebook">Imaging Request*</a> */}
                                 <a href="#" className="facebook">Symptom Checker **</a>
                             </div>
                         <h4>For Medical Professionals</h4>
@@ -33,11 +33,11 @@ const footer = () => {
                                 <a href="#">Experts in Research Areas*</a>
                                 <a href="#">Resoureses*</a>
                             </div>
-                        <h4>For Students</h4>
+                        {/* <h4>For Students</h4>
                             <div className="footer-links mt-3">
                                 <a href="#" className="facebook">Student Portal*</a>
                                 <a href="#" className="facebook">Degree Programs*</a>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="col-lg-4 col-md-4 footer-links">
@@ -64,7 +64,7 @@ const footer = () => {
 
             <div className="container py-4">
             <div className="copyright">
-                &copy; Copyright <strong><span>Baze University Teaching Hospital</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span>Baze University Hospital</span></strong>. All Rights Reserved
             </div>
             
             </div>

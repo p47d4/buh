@@ -27,7 +27,7 @@ const About = () => {
 
             <div className="section-title">
               <h2>About</h2>
-              <h3>Welcome to <span>Baze University Teaching Hospital</span></h3>
+              <h3>Welcome to <span>Baze University Hospital</span></h3>
             </div>
 
             <div className="row">

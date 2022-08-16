@@ -12,7 +12,7 @@ const Booking = () => {
     <div className="container aos-init aos-animate" data-aos="fade-up">
         <div className="section-title">
             <h2>Booking</h2>
-            <h3><span>Booking </span>An Appointment</h3>
+            <h3><span>Book </span>An Appointment</h3>
         </div>
         <div className="row aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <div className="col-lg-qw">
@@ -35,7 +35,6 @@ const Booking = () => {
                                                     <option></option>
                                                     <option>Mr</option>
                                                     <option>Mrs</option>
-                                                    <option>Mss</option>
                                                     <option>Ms</option>
                                                     <option>Dr</option>
                                                     <option>Capt</option>
@@ -108,28 +107,6 @@ const Booking = () => {
                                                     <option>Christianity</option>
                                                     <option>Islam</option>
                                                     <option>Others</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div className="row">
-                                            <div className="col-md-4 mb-3">
-                                                <label for="nextOfKinName">Next of Kin Name <span className="text-danger">*</span></label><input type="text" name="nextOfKinName" className="form-control" id="nextOfKinName" value="" />
-                                            </div>
-                                            <div className="col-md-4 mb-3">
-                                                <label for="nextOfKinPhone">Next of Kin Phone <span className="text-danger">*</span></label><input type="text" name="nextOfKinPhone" className="form-control" id="nextOfKinPhone" value="" />
-                                            </div>
-                                            <div className="col-md-4 mb-3">
-                                                <label for="nextOfKinRelationship">Next of Kin Relationship <span className="text-danger">*</span></label>
-                                                <select name="nextOfKinRelationship" className="form-control" id="nextOfKinRelationship">
-                                                    <option></option>
-                                                    <option>Father</option>
-                                                    <option>Mother</option>
-                                                    <option>Husband</option>
-                                                    <option>Wife</option>
-                                                    <option>Brother</option>
-                                                    <option>Sister</option>
-                                                    <option>Son</option>
-                                                    <option>Daughter</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -445,6 +422,28 @@ const Booking = () => {
                                                 </select>
                                             </div>
                                             <div className="col-md-4 mb-3"><label for="ward">Ward</label><input name="ward" type="text" className="form-control" id="ward" value="" /></div>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-md-4 mb-3">
+                                                <label for="nextOfKinName">Next of Kin Name <span className="text-danger">*</span></label><input type="text" name="nextOfKinName" className="form-control" id="nextOfKinName" value="" />
+                                            </div>
+                                            <div className="col-md-4 mb-3">
+                                                <label for="nextOfKinPhone">Next of Kin Phone <span className="text-danger">*</span></label><input type="text" name="nextOfKinPhone" className="form-control" id="nextOfKinPhone" value="" />
+                                            </div>
+                                            <div className="col-md-4 mb-3">
+                                                <label for="nextOfKinRelationship">Next of Kin Relationship <span className="text-danger">*</span></label>
+                                                <select name="nextOfKinRelationship" className="form-control" id="nextOfKinRelationship">
+                                                    <option></option>
+                                                    <option>Father</option>
+                                                    <option>Mother</option>
+                                                    <option>Husband</option>
+                                                    <option>Wife</option>
+                                                    <option>Brother</option>
+                                                    <option>Sister</option>
+                                                    <option>Son</option>
+                                                    <option>Daughter</option>
+                                                </select>
+                                            </div>
                                         </div>
                                         <div className="row">
                                             <div className="col-md-6 mb-3"><label for="zipCode">Zip</label><input name="zipCode" type="text" className="form-control" id="zipCode" value="" /></div>
