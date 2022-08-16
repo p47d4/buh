@@ -40,7 +40,7 @@ const header = () => {
                                 <li><a href="#">Testimonials</a></li>
                             </ul>
                         </li>
-                        <li><Link className="nav-link" to="/booking">Booking An Appointment</Link></li>
+                        <li><Link className="nav-link" to="/booking">Book An Appointment</Link></li>
                         <li className="dropdown"><Link to="/services"><span>Services</span> <i className="bi bi-chevron-down"></i></Link>
                                 <ul>
                                     <li className="dropdown"><a href="#"><span>Clinical Services</span> <i className="bi bi-chevron-right"></i></a>
@@ -50,7 +50,7 @@ const header = () => {
                                             <li><a href="#">Endocrinology</a></li>
                                             <li><a href="#">Gastroenterology</a></li>
                                             <li><a href="#">General Out-Patient</a></li>
-                                            <li><a href="#">Hematology</a></li>
+                                            <li><a href="#">Heamatology</a></li>
                                             <li><a href="#">Histopathology</a></li>
                                             <li><a href="#">Internal Medicine</a></li>
                                             <li><a href="#">Microbiology</a></li>
