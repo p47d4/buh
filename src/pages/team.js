@@ -35,7 +35,7 @@ const team = () => {
                     <img src="assets/img/buh/200.jpg" className="img-fluid" alt="" />
                   </div>
                   <div className="member-info">
-                    <h4>Dr. Taofeek Usman</h4>
+                    <h4>Dr. Taofeek Uthman</h4>
                     <span>Director of Administration</span>
                   </div>
                 </div>
