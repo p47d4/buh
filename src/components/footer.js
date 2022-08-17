@@ -41,6 +41,12 @@ const footer = () => {
                         </div>
 
                         <div className="col-lg-4 col-md-4 footer-links">
+
+                        <h4>For Staff</h4>
+                            <div className="footer-links mt-3">
+                                <a href="https://staff.bazeuniversityhospital.com/">Staff Login</a>
+                            </div>
+
                             <h4>Our Social Networks</h4>
                             <div className="social-links mt-3">
                                 <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>

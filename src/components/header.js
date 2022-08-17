@@ -12,8 +12,8 @@ const header = () => {
                   <i className="bi bi-phone d-flex align-items-center ms-4"><span>+234 813 376 9658</span></i>
               </div>
               <div className="social-links d-none d-md-flex align-items-center">
-                    <Link className="nav-link" to="/">Patient Login</Link>
-                    <Link className="nav-link" to="/patient_reg">Registration</Link>
+                    <Link className="nav-link" to="/patient_reg">Patient Login</Link>
+                    <a className="nav-link" href="http://www.bazeuniversityhospital.com/patient/register">Registration</a>
                     <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
                     <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
                     <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
@@ -25,17 +25,16 @@ const header = () => {
         <header id="header" className="d-flex align-items-center">
               <div className="container d-flex align-items-center justify-content-between">
 
-                  <a href="index.html" className="logo"><img src="assets/img/logo.png" alt="" /></a>
+              <Link className="logo" to="/"><img src="assets/img/logo.png" alt="" /></Link>
 
                 <nav id="navbar" className="navbar">
                     <ul>
-                        {/* <li><Link className="nav-link active" to="/">Home</Link></li> */}
-                        <li><Link className="nav-link" to="/">Home</Link></li>
+                        {/* <li><Link className="nav-link" active to="/">Home</Link></li> */}
                         <li><Link className="nav-link" to="/about">About</Link></li>
-                        <li className="dropdown"><Link to="/media"><span>Media</span> <i className="bi bi-chevron-down"></i></Link>
+                        <li className="dropdown"><Link to="/"><span>Media</span> <i className="bi bi-chevron-down"></i></Link>
                             <ul>
                                 <li><Link to="/gallery">Gallery</Link></li>
-                                <li><a href="#">News</a></li>
+                                <li><a href="/blog">News</a></li>
                                 <li><a href="#">Videos</a></li>
                                 <li><a href="#">Testimonials</a></li>
                             </ul>

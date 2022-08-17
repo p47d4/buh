@@ -35,7 +35,7 @@ const team = () => {
                     <img src="assets/img/buh/200.jpg" className="img-fluid" alt="" />
                   </div>
                   <div className="member-info">
-                    <h4>Dr. Taofeek Uthman</h4>
+                    <h4>Dr. Taofeek Usman</h4>
                     <span>Director of Administration</span>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ const team = () => {
               <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                 <div className="member">
                   <div className="member-img">
-                    <img src="assets/img/buh/img.png" className="img-fluid" alt="" />
+                    <img src="assets/img/buh/pc.png" className="img-fluid" alt="" />
                   </div>
                   <div className="member-info">
                     <h4>Sen. Yusuf Datti Baba-Ahmed, PhD</h4>
@@ -82,7 +82,7 @@ const team = () => {
               <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                 <div className="member">
                   <div className="member-img">
-                    <img src="assets/img/buh/img.png" className="img-fluid" alt="" />
+                    <img src="assets/img/buh/Dr-Shehu-Sule.jpg" className="img-fluid" alt="" />
                   </div>
                   <div className="member-info">
                     <h4>Dr. Shehu Sule</h4>
@@ -94,7 +94,7 @@ const team = () => {
               <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                 <div className="member">
                   <div className="member-img">
-                    <img src="assets/img/buh/img.png" className="img-fluid" alt="" />
+                    <img src="assets/img/buh/100.jpg" className="img-fluid" alt="" />
                   </div>
                   <div className="member-info">
                     <h4>Dr. Dogo-Muhammad M.B.W.</h4>
@@ -133,7 +133,7 @@ const team = () => {
               <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                 <div className="member">
                   <div className="member-img">
-                    <img src="assets/img/buh/img.png" className="img-fluid" alt="" />
+                    <img src="assets/img/buh/onari_duke.jpg" className="img-fluid" alt="" />
                   </div>
                   <div className="member-info">
                     <h4>Mrs Onari Duke</h4>

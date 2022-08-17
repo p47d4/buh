@@ -11,7 +11,6 @@ import Team from './pages/team';
 import Services from './pages/services';
 import Gallery from './pages/gallery';
 import Booking from './pages/booking';
-import Appointment from './pages/appointment';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,7 +24,6 @@ root.render(
       <Route path="services" element={<Services />} />
       <Route path="gallery" element={<Gallery />} />
       <Route path="booking" element={<Booking />} />
-      <Route path="appointment" element={<Appointment />} />
     </Routes>
   </BrowserRouter>
   // <React.StrictMode>

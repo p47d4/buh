@@ -71,13 +71,14 @@ const About = () => {
 							<div className="row : center-md">
 								<div className="col-md-12">
 									<div className="row">
-                    <h2>Our Values</h2><br /><br /><br />
+                    <h1>Our Values</h1><br /><br /><br />
+					<hr/>
 											<div className="col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
 												<div className="leader-testimonial">
 													
 													<div className="leader-testimonial__content : text--14">
 														<div className="leader-testimonial__title : text--uppercase : text--cgp-green-1 : text--bd">
-															<h3>EXCELLENCE</h3>
+															<h4>EXCELLENCE</h4>
 														</div>
 														<div className="leader-testimonial__text : text--gray"><p>Surpassing current benchmarks constantly by continually challenging our ability and skills to take theorganization to greater heights</p></div>
 														<div className="leader-testimonial__name : text--12 : text--uppercase"><strong>ALBERT EINSTEIN</strong></div>
@@ -90,7 +91,7 @@ const About = () => {
 													
 													<div className="leader-testimonial__content : text--14">
 														<div className="leader-testimonial__title : text--uppercase : text--cgp-green-1 : text--bd">
-															<h3>RESPECT</h3>
+															<h4>RESPECT</h4>
 														</div>
 														<div className="leader-testimonial__text : text--gray"><p>Treating people with utmost dignity, valuing their contributions and fostering a culture that allow each individual to rise to their fullest potential</p></div>
 														<div className="leader-testimonial__name : text--12 : text--uppercase"><strong>MAHATMA GANDHI</strong></div>
@@ -103,7 +104,7 @@ const About = () => {
 													
 													<div className="leader-testimonial__content : text--14">
 														<div className="leader-testimonial__title : text--uppercase : text--cgp-green-1 : text--bd">
-															<h3>COMPASSION</h3>
+															<h4>COMPASSION</h4>
 														</div>
 														<div className="leader-testimonial__text : text--gray"><p>Going beyond boundaries with empathy and care</p></div>
 														<div className="leader-testimonial__name : text--12 : text--uppercase"><strong>MOTHER TERESA</strong></div>
@@ -116,7 +117,7 @@ const About = () => {
 													
 													<div className="leader-testimonial__content : text--14">
 														<div className="leader-testimonial__title : text--uppercase : text--cgp-green-1 : text--bd">
-															<h3>PASSION</h3>
+															<h4>PASSION</h4>
 														</div>
 														<div className="leader-testimonial__text : text--gray"><p>Going the extra mile willingly, with a complete sense of belongingness and purpose while adding value to our stakeholders</p></div>
 														<div className="leader-testimonial__name : text--12 : text--uppercase"><strong>STEVE JOBS</strong></div>
@@ -129,7 +130,7 @@ const About = () => {
 													
 													<div className="leader-testimonial__content : text--14">
 														<div className="leader-testimonial__title : text--uppercase : text--cgp-green-1 : text--bd">
-															<h3>INTEGRITY</h3>
+															<h4>INTEGRITY</h4>
 														</div>
 														<div className="leader-testimonial__text : text--gray"><p>Doing the right thing without any compromises and embracing a higher standard of conduct</p></div>
 														<div className="leader-testimonial__name : text--12 : text--uppercase"><strong>NELSON MANDELA</strong></div>
@@ -142,7 +143,7 @@ const About = () => {
 													
 													<div className="leader-testimonial__content : text--14">
 														<div className="leader-testimonial__title : text--uppercase : text--cgp-green-1 : text--bd">
-															<h3>UNITY</h3>
+															<h4>UNITY</h4>
 														</div>
 														<div className="leader-testimonial__text : text--gray"><p>Harnessing the power of synergy and engaging people for exponential performance and results</p></div>
 														<div className="leader-testimonial__name : text--12 : text--uppercase"><strong>H.H. SHEIKH ZAYED BIN SULTAN AL NAHYAN</strong></div>
