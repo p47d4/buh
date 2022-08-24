@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const footer = () => {
   return (
@@ -20,33 +21,20 @@ const footer = () => {
                         </div>
 
                         <div className="col-lg-4 col-md-4 footer-contact">
-                        <h4>For Patients</h4>
+                            {/* <h4>For Staff</h4>
                             <div className="footer-links mt-3">
-                                {/* <a href="#" className="facebook">Wallet TopUP</a> */}
-                                <a href="/appointment" className="facebook"> Book Appointment</a>
-                                {/* <a href="#" className="facebook">Lab Request*</a>
-                                <a href="#" className="facebook">Imaging Request*</a> */}
-                                <a href="#" className="facebook">Symptom Checker **</a>
-                            </div>
-                        <h4>For Medical Professionals</h4>
-                            <div className="footer-links mt-3">
-                                <a href="#">Experts in Research Areas*</a>
-                                <a href="#">Resoureses*</a>
-                            </div>
-                        {/* <h4>For Students</h4>
-                            <div className="footer-links mt-3">
-                                <a href="#" className="facebook">Student Portal*</a>
-                                <a href="#" className="facebook">Degree Programs*</a>
+                                <a href="https://staff.bazeuniversityhospital.com/">Staff Login</a>
                             </div> */}
+                            <div className="footer-links mt-3">
+                            <h4>Quick Links</h4>
+                                <Link to="/services">Services</Link><br/>
+                                <Link to="/about">About Baze University Hospital</Link><br/>
+                                <Link to="/contact">Map and Contact Information</Link>
+                                {/* <a href="#" className="facebook">Symptom Checker **</a> */}
+                            </div>
                         </div>
 
                         <div className="col-lg-4 col-md-4 footer-links">
-
-                        <h4>For Staff</h4>
-                            <div className="footer-links mt-3">
-                                <a href="https://staff.bazeuniversityhospital.com/">Staff Login</a>
-                            </div>
-
                             <h4>Our Social Networks</h4>
                             <div className="social-links mt-3">
                                 <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
@@ -79,5 +67,4 @@ const footer = () => {
 
   )
 }
-
 export default footer

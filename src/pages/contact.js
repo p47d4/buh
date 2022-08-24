@@ -14,7 +14,6 @@ const Contact = () => {
           <h2>Contact</h2>
           <h3><span>Contact Us</span></h3>
         </div>
-
         <div className="row" data-aos="fade-up" data-aos-delay="100">
           <div className="col-lg-6">
             <div className="info-box mb-4">
@@ -43,7 +42,6 @@ const Contact = () => {
           </div>
 
         </div>
-
         <div className="row" data-aos="fade-up" data-aos-delay="100">
 
           <div className="col-lg-12">
@@ -72,11 +70,22 @@ const Contact = () => {
           </div>
 
         </div>
-
+        {/* <div className="google-map-container"> 
+         <iframe 
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7881.253473578433!2d7.404114499999994!3d9.006451099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e7372e355f317%3A0x7f90ec48624fd5b4!2sBaze+University!5e0!3m2!1sen!2sng!4v1463473608506" 
+         width="100" 
+         height="350" 
+         frameborder="0" 
+         style="{{ border:0 }}" 
+         allowfullscreen=""
+         aria-hidden="false" 
+         tabIndex="0"
+         />
+		    </div> */}
       </div>
     </section>
 
-      <Footer />
+      <Footer/>
     </>
   )
 }

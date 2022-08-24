@@ -12,8 +12,8 @@ const header = () => {
                   <i className="bi bi-phone d-flex align-items-center ms-4"><span>+234 813 376 9658</span></i>
               </div>
               <div className="social-links d-none d-md-flex align-items-center">
-                    <Link className="nav-link" to="/patient_reg">Patient Login</Link>
-                    <a className="nav-link" href="http://www.bazeuniversityhospital.com/patient/register">Registration</a>
+                    <Link className="nav-link" to="/patient/login">Patient Login</Link>
+                    <a className="nav-link" href="https://staff.bazeuniversityhospital.com/">Staff Login</a>
                     <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
                     <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
                     <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
@@ -29,18 +29,10 @@ const header = () => {
 
                 <nav id="navbar" className="navbar">
                     <ul>
-                        {/* <li><Link className="nav-link" active to="/">Home</Link></li> */}
-                        <li><Link className="nav-link" to="/about">About</Link></li>
-                        <li className="dropdown"><Link to="/"><span>Media</span> <i className="bi bi-chevron-down"></i></Link>
-                            <ul>
-                                <li><Link to="/gallery">Gallery</Link></li>
-                                <li><a href="/blog">News</a></li>
-                                <li><a href="#">Videos</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                            </ul>
-                        </li>
-                        <li><Link className="nav-link" to="/booking">Book An Appointment</Link></li>
-                        <li className="dropdown"><Link to="/services"><span>Services</span> <i className="bi bi-chevron-down"></i></Link>
+                        <a className="nav-link" href="http://www.bazeuniversityhospital.com/patient/register">Patient Registration</a>
+                        {/* <li><Link className="nav-link" to="/booking">Book An Appointment</Link></li> */}
+                        <li className="dropdown">
+                            <Link to="/services"><span>Services</span> <i className="bi bi-chevron-down"></i></Link>
                                 <ul>
                                     <li className="dropdown"><a href="#"><span>Clinical Services</span> <i className="bi bi-chevron-right"></i></a>
                                         <ul>
@@ -96,9 +88,19 @@ const header = () => {
                                     </li>
                                 </ul>
                         </li>
+                        <li className="dropdown">
+                        <Link to="/about"><span>About</span> <i className="bi bi-chevron-down"></i></Link>     
+                        <ul>
+                                <li><Link to="/about">About Baze University Hospital</Link></li>
+                                <li><Link to="/team">Leadership Of The Hospital</Link></li>
+                                <li><Link to="/gallery">Gallery</Link></li>
+                                <li><Link to="/contact">Map and Contact Information</Link></li>
+                                {/* <li><a href="/blog">News</a></li>
+                                <li><a href="#">Videos</a></li>
+                                <li><a href="#">Testimonials</a></li> */}
+                        </ul>
+                        </li>
                         {/* <li><Link className="nav-link" to="/patient_reg">Patient Registration</Link></li> */}
-                        <li><Link className="nav-link" to="/team">Team</Link></li>
-                        <li><Link className="nav-link" to="/contact">Contact</Link></li>
                     </ul>
                     <i className="bi bi-list mobile-nav-toggle"></i>
                 </nav>

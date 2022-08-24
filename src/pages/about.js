@@ -2,26 +2,10 @@ import React from 'react'
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-
 const About = () => {
   return (
-
     <>
-        <Header />
-
-        <section className="breadcrumbs">
-          <div className="container">
-            <div className="d-flex justify-content-between align-items-center">
-              <h2>About Us</h2>
-              <ol>
-                {/* <li><Link to="/">Home</Link></li> */}
-                <li><a href="/">Home</a></li>
-                <li>About Us</li>
-              </ol>
-            </div>
-          </div>
-        </section>
-
+        <Header/>
         <section id="about" className="about">
           <div className="container" data-aos="fade-up">
 
@@ -65,98 +49,81 @@ const About = () => {
 
           </div>
         </section>
+		
+		<section className="contact">
+        <div className="container">
 
-        <section className='section-bg'>
-          <div className="container aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-							<div className="row : center-md">
-								<div className="col-md-12">
-									<div className="row">
-                    <h1>Our Values</h1><br /><br /><br />
-					<hr/>
-											<div className="col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-												<div className="leader-testimonial">
-													
-													<div className="leader-testimonial__content : text--14">
-														<div className="leader-testimonial__title : text--uppercase : text--cgp-green-1 : text--bd">
-															<h4>EXCELLENCE</h4>
-														</div>
-														<div className="leader-testimonial__text : text--gray"><p>Surpassing current benchmarks constantly by continually challenging our ability and skills to take theorganization to greater heights</p></div>
-														<div className="leader-testimonial__name : text--12 : text--uppercase"><strong>ALBERT EINSTEIN</strong></div>
-													</div>
-												</div>
-											</div>
+        <div className="section-title">
+          <h2>Values</h2>
+          <h3><span>Our Values</span></h3>
+        </div>
+        <div className="row" data-aos="fade-up" data-aos-delay="100">
+          <div className="col-lg-4">
+            <div className="info-box mb-4">
+              <h3>EXCELLENCE</h3>
+              <p>Surpassing current benchmarks constantly by continually challenging our ability and skills to take theorganization to greater heights</p><br/>
+			  <h6>- ALBERT EINSTEIN -</h6>
+			</div>
+          </div>
 
-											<div className="col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-												<div className="leader-testimonial">
-													
-													<div className="leader-testimonial__content : text--14">
-														<div className="leader-testimonial__title : text--uppercase : text--cgp-green-1 : text--bd">
-															<h4>RESPECT</h4>
-														</div>
-														<div className="leader-testimonial__text : text--gray"><p>Treating people with utmost dignity, valuing their contributions and fostering a culture that allow each individual to rise to their fullest potential</p></div>
-														<div className="leader-testimonial__name : text--12 : text--uppercase"><strong>MAHATMA GANDHI</strong></div>
-													</div>
-												</div>
-											</div><hr />
-										
-											<div className="col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-												<div className="leader-testimonial">
-													
-													<div className="leader-testimonial__content : text--14">
-														<div className="leader-testimonial__title : text--uppercase : text--cgp-green-1 : text--bd">
-															<h4>COMPASSION</h4>
-														</div>
-														<div className="leader-testimonial__text : text--gray"><p>Going beyond boundaries with empathy and care</p></div>
-														<div className="leader-testimonial__name : text--12 : text--uppercase"><strong>MOTHER TERESA</strong></div>
-													</div>
-												</div>
-											</div>
-										
-											<div className="col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-												<div className="leader-testimonial">
-													
-													<div className="leader-testimonial__content : text--14">
-														<div className="leader-testimonial__title : text--uppercase : text--cgp-green-1 : text--bd">
-															<h4>PASSION</h4>
-														</div>
-														<div className="leader-testimonial__text : text--gray"><p>Going the extra mile willingly, with a complete sense of belongingness and purpose while adding value to our stakeholders</p></div>
-														<div className="leader-testimonial__name : text--12 : text--uppercase"><strong>STEVE JOBS</strong></div>
-													</div>
-												</div>
-											</div><hr />
-										
-											<div className="col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-												<div className="leader-testimonial">
-													
-													<div className="leader-testimonial__content : text--14">
-														<div className="leader-testimonial__title : text--uppercase : text--cgp-green-1 : text--bd">
-															<h4>INTEGRITY</h4>
-														</div>
-														<div className="leader-testimonial__text : text--gray"><p>Doing the right thing without any compromises and embracing a higher standard of conduct</p></div>
-														<div className="leader-testimonial__name : text--12 : text--uppercase"><strong>NELSON MANDELA</strong></div>
-													</div>
-												</div>
-											</div>
-										
-											<div className="col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-												<div className="leader-testimonial">
-													
-													<div className="leader-testimonial__content : text--14">
-														<div className="leader-testimonial__title : text--uppercase : text--cgp-green-1 : text--bd">
-															<h4>UNITY</h4>
-														</div>
-														<div className="leader-testimonial__text : text--gray"><p>Harnessing the power of synergy and engaging people for exponential performance and results</p></div>
-														<div className="leader-testimonial__name : text--12 : text--uppercase"><strong>H.H. SHEIKH ZAYED BIN SULTAN AL NAHYAN</strong></div>
-													</div>
-												</div>
-											</div><hr />
-										
-									</div>
-								</div>
-							</div>
-						</div>
-        </section>
+          <div className="col-lg-4">
+            <div className="info-box mb-4">
+              <h3>COMPASSION</h3>
+              <p>Going beyond boundaries with empathy and care</p><br/>
+			  <h6>- MOTHER TERESA -</h6>
+			</div>
+          </div>
 
+		  <div className="col-lg-4">
+            <div className="info-box mb-4">
+              <h3>INTEGRITY</h3>
+              <p>Doing the right thing without any compromises and embracing a higher standard of conduct</p><br/>
+			  <h6>- NELSON MANDELA -</h6>
+			</div>
+          </div>
+
+        </div>
+
+		<div className="row" data-aos="fade-up" data-aos-delay="100">
+          <div className="col-lg-4">
+            <div className="info-box mb-4">
+              <h3>RESPECT</h3>
+              <p>Treating people with utmost dignity, valuing their contributions and fostering a culture that allow each individual to rise to their fullest potential</p><br/>
+			  <h6>- MAHATMA GANDHI -</h6>
+			</div>
+          </div>
+
+          <div className="col-lg-4">
+            <div className="info-box mb-4">
+              <h3>PASSION</h3>
+              <p>Going the extra mile willingly, with a complete sense of belongingness and purpose while adding value to our stakeholders</p><br/>
+			  <h6>- STEVE JOBS -</h6>
+			</div>
+          </div>
+
+		  <div className="col-lg-4">
+            <div className="info-box mb-4">
+              <h3>UNITY</h3>
+              <p>Harnessing the power of synergy and engaging people for exponential performance and results</p><br/>
+			  <h6>- H.H. SHEIKH ZAYED BIN SULTAN AL NAHYAN -</h6>
+			</div>
+          </div>
+
+        </div>
+        {/* <div className="google-map-container"> 
+         <iframe 
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7881.253473578433!2d7.404114499999994!3d9.006451099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e7372e355f317%3A0x7f90ec48624fd5b4!2sBaze+University!5e0!3m2!1sen!2sng!4v1463473608506" 
+         width="100" 
+         height="350" 
+         frameborder="0" 
+         style="{{ border:0 }}" 
+         allowfullscreen=""
+         aria-hidden="false" 
+         tabIndex="0"
+         />
+		    </div> */}
+      </div>
+    </section>
         <Footer />
     </>
   )
