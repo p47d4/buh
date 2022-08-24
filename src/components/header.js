@@ -12,8 +12,8 @@ const header = () => {
                   <i className="bi bi-phone d-flex align-items-center ms-4"><span>+234 813 376 9658</span></i>
               </div>
               <div className="social-links d-none d-md-flex align-items-center">
-                    <Link className="nav-link" to="/patient/login">Patient Login</Link>
-                    <a className="nav-link" href="https://staff.bazeuniversityhospital.com/">Staff Login</a>
+                    <Link className="nav-link" to="/patient/login">Patient Portal</Link>
+                    <a className="nav-link" href="https://staff.bazeuniversityhospital.com/">Staff Portal</a>
                     <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
                     <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
                     <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
@@ -32,7 +32,7 @@ const header = () => {
                         <a className="nav-link" href="http://www.bazeuniversityhospital.com/patient/register">Patient Registration</a>
                         {/* <li><Link className="nav-link" to="/booking">Book An Appointment</Link></li> */}
                         <li className="dropdown">
-                            <Link to="/services"><span>Services</span> <i className="bi bi-chevron-down"></i></Link>
+                            <Link to="/services"><span>Facilities & Services</span> <i className="bi bi-chevron-down"></i></Link>
                                 <ul>
                                     <li className="dropdown"><a href="#"><span>Clinical Services</span> <i className="bi bi-chevron-right"></i></a>
                                         <ul>

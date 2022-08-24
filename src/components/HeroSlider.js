@@ -8,13 +8,13 @@ const HeroSlider = () => {
                 <Carousel.Item interval={3000}>
                     <img
                         className="d-block w-100"
-                        src="assets/img/bg-1.jpg"
+                        src="assets/img/buh/4.jpg"
                         alt="First slide"
-                        height='900px'
+                        height='800px'
                     />
                     <Carousel.Caption>
                         <h1>Welcome to <span>Baze University Hospital</span></h1>
-                        <div className="mx-0 row">
+                        <div className="mx-4 row">
                             <a href="/patient/register"className="btn btn-secondary col">Register</a>
                             <a href="https://www.youtube.com/watch?v=vunzMowSQAQ" className="btn btn-success col" target="_blank">Watch Video</a>
                         </div>
@@ -23,19 +23,18 @@ const HeroSlider = () => {
                 <Carousel.Item interval={3000}>
                     <img
                         className="d-block w-100"
-                        src="assets/img/bg-2.jpg"
+                        src="assets/img/buh/2.jpg"
                         alt="Second slide"
-                        height='900px'
+                        height='800px'
                     />
                     <Carousel.Caption>
                         <h1>Welcome to <span>Baze University Hospital</span></h1>
-                        <div className="mx-0 row">
+                        <div className="mx-4 row">
                             <a href="/patient/register"className="btn btn-secondary col">Register</a>
                             <a href="https://www.youtube.com/watch?v=vunzMowSQAQ" className="btn btn-success col" target="_blank">Watch Video</a>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
-                
             </Carousel>
         </>
     )
