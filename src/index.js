@@ -13,9 +13,15 @@ import Gallery from './pages/gallery';
 import Booking from './pages/booking';
 import Accordion from './pages/accordion';
 
+import Login from './components/login_component.js';
+import SignUp from './components/signup_component.js';
+import UserDetails from './components/userDetails.js';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
+   <div className="auth-wrapper">
+      <div className="auth-inner">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="about" element={<About />} />
@@ -26,8 +32,29 @@ root.render(
       <Route path="gallery" element={<Gallery />} />
       <Route path="booking" element={<Booking />} />
       <Route path="accordion" element={<Accordion />} />
+      <Route path="/sign-in" element={<Login />} />
+      <Route path="/sign-up" element={<SignUp />} />
+      <Route path="/userDetails" element={<UserDetails />} />
     </Routes>
+    </div>
+    </div>
   </BrowserRouter>
+
+  // <Router>
+  // <div className="App">
+  //   <div className="auth-wrapper">
+  //     <div className="auth-inner">
+  //       <Routes>
+  //         <Route exact path="/" element={<Login />} />
+  //         <Route path="/sign-in" element={<Login />} />
+  //         <Route path="/sign-up" element={<SignUp />} />
+  //         <Route path="/userDetails" element={<UserDetails />} />
+  //       </Routes>
+  //     </div>
+  //   </div>
+  // </div>
+  // </Router>
+
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>

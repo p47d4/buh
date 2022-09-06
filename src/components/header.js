@@ -8,11 +8,12 @@ const header = () => {
         <section id="topbar" className="d-flex align-items-center">
           <div className="container d-flex justify-content-center justify-content-md-between">
               <div className="contact-info d-flex align-items-center">
-                  <i className="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">info@bazeuniversityhospital.com</a></i>
+                  <i className="bi bi-envelope d-flex align-items-center"><a href="mailto:info@bazeuniversityhospital.com">info@bazeuniversityhospital.com</a></i>
                   <i className="bi bi-phone d-flex align-items-center ms-4"><span>+234 813 376 9658</span></i>
               </div>
               <div className="social-links d-none d-md-flex align-items-center">
-                    <Link className="nav-link" to="/patient/login">Patient Portal</Link>
+                    <Link className="nav-link" to="/userDetails">Profile</Link>
+                    <Link className="nav-link" to="/sign-in">Patient Portal</Link>
                     <a className="nav-link" href="https://staff.bazeuniversityhospital.com/">Staff Portal</a>
                     <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
                     <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
@@ -29,8 +30,9 @@ const header = () => {
 
                 <nav id="navbar" className="navbar">
                     <ul>
-                        <a className="nav-link" href="http://www.bazeuniversityhospital.com/patient/register">Patient Registration</a>
-                        {/* <li><Link className="nav-link" to="/booking">Book An Appointment</Link></li> */}
+                        <li><Link to="/booking"><span>Appointment</span></Link></li>
+                        {/* <a className="nav-link" href="http://www.bazeuniversityhospital.com/patient/register">Patient Registration</a> */}
+                        <li><a className="nav-link" href="/sign-up">Patient Registration</a></li>
                         <li className="dropdown">
                             <Link to="/services"><span>Facilities & Services</span> <i className="bi bi-chevron-down"></i></Link>
                                 <ul>
