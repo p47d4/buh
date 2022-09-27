@@ -68,7 +68,79 @@ const gallery = () => {
         },
         {
             img: 'assets/img/gallery/scan.jpg'
-        }
+        },
+        {
+            img: 'assets/img/gallery/buh1.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/4.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh2.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh3.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh5.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh6.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh10.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh11.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh12.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh13.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh14.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh15.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh16.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh18.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh19.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh20.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh21.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh22.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh23.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh24.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh25.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh26.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh27.jpeg'
+        },
+        {
+            img: 'assets/img/gallery/buh28.jpeg'
+        },
     ]
 
   return (
