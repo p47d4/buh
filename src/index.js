@@ -11,6 +11,7 @@ import Team from './pages/team';
 import Services from './pages/services';
 import Gallery from './pages/gallery';
 import Booking from './pages/booking';
+import Directors_message from './pages/directors_message';
 import Accordion from './pages/accordion';
 
 import Login from './components/login_component.js';
@@ -22,21 +23,22 @@ root.render(
   <BrowserRouter>
    <div className="auth-wrapper">
       <div className="auth-inner">
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="about" element={<About />} />
-      <Route path="contact" element={<Contact />} />
-      <Route path="patient_reg" element={<Patient_reg />} />
-      <Route path="team" element={<Team />} />
-      <Route path="services" element={<Services />} />
-      <Route path="gallery" element={<Gallery />} />
-      <Route path="booking" element={<Booking />} />
-      <Route path="accordion" element={<Accordion />} />
-      <Route path="/sign-in" element={<Login />} />
-      <Route path="/sign-up" element={<SignUp />} />
-      <Route path="/userDetails" element={<UserDetails />} />
-    </Routes>
-    </div>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="patient_reg" element={<Patient_reg />} />
+        <Route path="team" element={<Team />} />
+        <Route path="services" element={<Services />} />
+        <Route path="gallery" element={<Gallery />} />
+        <Route path="booking" element={<Booking />} />
+        <Route path="directors_message" element={<Directors_message />} />
+        <Route path="accordion" element={<Accordion />} />
+        <Route path="/sign-in" element={<Login />} />
+        <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/userDetails" element={<UserDetails />} />
+      </Routes>
+      </div>
     </div>
   </BrowserRouter>
 
