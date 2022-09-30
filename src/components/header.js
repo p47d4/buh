@@ -94,6 +94,7 @@ const header = () => {
                         <Link to="/about"><span>About</span> <i className="bi bi-chevron-down"></i></Link>     
                         <ul>
                                 <li><Link to="/about">About Baze University Hospital</Link></li>
+                                <li><Link to="/directors_message">Director's Message</Link></li>
                                 <li><Link to="/team">Leadership Of The Hospital</Link></li>
                                 <li><Link to="/gallery">Gallery</Link></li>
                                 <li><Link to="/contact">Map and Contact Information</Link></li>
