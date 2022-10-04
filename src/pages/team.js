@@ -22,7 +22,7 @@ const team = () => {
                     <img src="assets/img/buh/100.jpg" className="img-fluid" alt="" />
                   </div>
                   <div className="member-info">
-                    <h4>Dr. Dogo-Muhammad M.W.B</h4>
+                    <h4><a href="">Dr. Dogo-Muhammad M.W.B</a></h4>
                     <span>Chief Executive Officer/Chief Medical Director</span>
                   </div>
                 </div>
