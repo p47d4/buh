@@ -86,7 +86,7 @@ const Index  = () => {
     <section id="featured-services" className="featured-services">
     <div className="section-title">
             <h2>Services</h2>
-            <h3><span>Our Featured Services</span></h3>
+            <h3><span>Our Promise For A New Kind Of Care</span></h3>
         </div>
       <div className="container" data-aos="fade-up">
 
@@ -128,8 +128,13 @@ const Index  = () => {
       </div>
     </section>
 
+<<<<<<< HEAD
+    { <section id="departments" class="departments">
+      <div class="container">
+=======
     <section id="departments" className="departments section-bg">
       <div className="container">
+>>>>>>> 3850744282cdad78e08fec1cdc3f683ee1e103be
 
         <div className="section-title">
           <h2>Departments</h2>
