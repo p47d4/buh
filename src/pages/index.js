@@ -3,6 +3,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 // import Accordion from './accordion';
 // import './accordion.css';
+import { Link } from 'react-router-dom';
 
 import HeroSlider from '../components/HeroSlider';
 
@@ -244,7 +245,6 @@ const Index  = () => {
 
         <div className="section-title">
           <h2>Doctors</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div className="row">
@@ -258,10 +258,10 @@ const Index  = () => {
                 <span>Chief Medical Officer</span>
                 
                 <div className="social">
-                  <a href=""><i className="ri-twitter-fill"></i></a>
-                  <a href=""><i className="ri-facebook-fill"></i></a>
-                  <a href=""><i className="ri-instagram-fill"></i></a>
-                  <a href=""> <i className="ri-linkedin-box-fill"></i> </a>
+                  <a href="/"><i className="ri-twitter-fill"></i></a>
+                  <a href="/"><i className="ri-facebook-fill"></i></a>
+                  <a href="/"><i className="ri-instagram-fill"></i></a>
+                  <a href="/"> <i className="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -276,10 +276,10 @@ const Index  = () => {
                 <span>Director of Clinical Services</span>
                 
                 <div className="social">
-                  <a href=""><i className="ri-twitter-fill"></i></a>
-                  <a href=""><i className="ri-facebook-fill"></i></a>
-                  <a href=""><i className="ri-instagram-fill"></i></a>
-                  <a href=""> <i className="ri-linkedin-box-fill"></i> </a>
+                  <a href="/"><i className="ri-twitter-fill"></i></a>
+                  <a href="/"><i className="ri-facebook-fill"></i></a>
+                  <a href="/"><i className="ri-instagram-fill"></i></a>
+                  <a href="/"> <i className="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -294,10 +294,10 @@ const Index  = () => {
                 <span>Director of Administration</span>
                 
                 <div className="social">
-                  <a href=""><i className="ri-twitter-fill"></i></a>
-                  <a href=""><i className="ri-facebook-fill"></i></a>
-                  <a href=""><i className="ri-instagram-fill"></i></a>
-                  <a href=""> <i className="ri-linkedin-box-fill"></i> </a>
+                  <a href="/"><i className="ri-twitter-fill"></i></a>
+                  <a href="/"><i className="ri-facebook-fill"></i></a>
+                  <a href="/"><i className="ri-instagram-fill"></i></a>
+                  <a href="/"> <i className="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -312,10 +312,10 @@ const Index  = () => {
                 <span>Gynecology and Obstetrics</span>
                 
                 <div className="social">
-                  <a href=""><i className="ri-twitter-fill"></i></a>
-                  <a href=""><i className="ri-facebook-fill"></i></a>
-                  <a href=""><i className="ri-instagram-fill"></i></a>
-                  <a href=""> <i className="ri-linkedin-box-fill"></i> </a>
+                  <a href="/"><i className="ri-twitter-fill"></i></a>
+                  <a href="/"><i className="ri-facebook-fill"></i></a>
+                  <a href="/"><i className="ri-instagram-fill"></i></a>
+                  <a href="/"> <i className="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -330,15 +330,19 @@ const Index  = () => {
                 <span>Chemical Pathologist</span>
                 
                 <div className="social">
-                  <a href=""><i className="ri-twitter-fill"></i></a>
-                  <a href=""><i className="ri-facebook-fill"></i></a>
-                  <a href=""><i className="ri-instagram-fill"></i></a>
-                  <a href=""> <i className="ri-linkedin-box-fill"></i> </a>
+                  <a href="/"><i className="ri-twitter-fill"></i></a>
+                  <a href="/"><i className="ri-facebook-fill"></i></a>
+                  <a href="/"><i className="ri-instagram-fill"></i></a>
+                  <a href="/"> <i className="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
           </div>
 
+        </div>
+
+        <div className="text-center">
+          <Link to="/staffList" className="btn-link"><span>View All Doctors</span></Link>
         </div>
 
       </div>
@@ -354,7 +358,7 @@ const Index  = () => {
         <div className="faq-list">
           <ul>
             <li data-aos="fade-up">
-              <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" className="collapsed" data-bs-target="#faq-list-1">HOW FREQUENTLY IS A HEALTH CHECK-UP REQUIRED? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+              <i className="bx bx-help-circle icon-help"></i> <a href="/" data-bs-toggle="collapse" className="collapsed" data-bs-target="#faq-list-1">HOW FREQUENTLY IS A HEALTH CHECK-UP REQUIRED? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" className="collapse show" data-bs-parent=".faq-list">
                 <p>The interval is specific to an individual depending on their health status. 
                   The general classification would be that beyond the age of 40 an individual 
@@ -373,7 +377,7 @@ const Index  = () => {
             </li>
 
             <li data-aos="fade-up" data-aos-delay="100">
-              <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" className="collapse">WHO REQUIRES A HEALTH CHECK-UP? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+              <i className="bx bx-help-circle icon-help"></i> <a href="/" data-bs-toggle="collapse" data-bs-target="#faq-list-2" className="collapse">WHO REQUIRES A HEALTH CHECK-UP? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" className="collapse" data-bs-parent=".faq-list">
                 <p>
                   Everyone needs a health check-up, no matter how healthy an individual is. 
@@ -388,7 +392,7 @@ const Index  = () => {
             </li>
 
             <li data-aos="fade-up" data-aos-delay="200">
-              <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" className="collapsed">HOW IS THE HEALTH CHECK-UP CONDUCTED? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+              <i className="bx bx-help-circle icon-help"></i> <a href="/" data-bs-toggle="collapse" data-bs-target="#faq-list-3" className="collapsed">HOW IS THE HEALTH CHECK-UP CONDUCTED? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" className="collapse" data-bs-parent=".faq-list">
                 <p>
                   We carry all the assessments in a peaceful and welcoming atmosphere. 
@@ -403,7 +407,7 @@ const Index  = () => {
             </li>
 
             <li data-aos="fade-up" data-aos-delay="300">
-              <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" className="collapsed">WHAT IS THE HEALTH CHECK-UP ABOUT? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+              <i className="bx bx-help-circle icon-help"></i> <a href="/" data-bs-toggle="collapse" data-bs-target="#faq-list-4" className="collapsed">WHAT IS THE HEALTH CHECK-UP ABOUT? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-4" className="collapse" data-bs-parent=".faq-list">
                 <p>
                   A health check-up allows you to “know your numbers”.
@@ -428,7 +432,7 @@ const Index  = () => {
             </li>
 
             <li data-aos="fade-up" data-aos-delay="400">
-              <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" className="collapsed">WHY DO I NEED A HEALTH CHECK-UP? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+              <i className="bx bx-help-circle icon-help"></i> <a href="/" data-bs-toggle="collapse" data-bs-target="#faq-list-5" className="collapsed">WHY DO I NEED A HEALTH CHECK-UP? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-5" className="collapse" data-bs-parent=".faq-list">
                 <p>
                   Regular medical check-ups are important to verify that you are in a 
