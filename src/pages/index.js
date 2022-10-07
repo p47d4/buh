@@ -128,13 +128,8 @@ const Index  = () => {
       </div>
     </section>
 
-<<<<<<< HEAD
-    { <section id="departments" class="departments">
-      <div class="container">
-=======
     <section id="departments" className="departments section-bg">
       <div className="container">
->>>>>>> 3850744282cdad78e08fec1cdc3f683ee1e103be
 
         <div className="section-title">
           <h2>Departments</h2>
@@ -144,19 +139,34 @@ const Index  = () => {
           <div className="col-lg-3">
             <ul className="nav nav-tabs flex-column">
               <li className="nav-item">
-                <a className="nav-link active show" data-bs-toggle="tab" href="#tab-1">Cardiology</a>
+                <a className="nav-link active show" data-bs-toggle="tab" href="#tab-1">Surgery</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" data-bs-toggle="tab" href="#tab-2">Neurology</a>
+                <a className="nav-link" data-bs-toggle="tab" href="#tab-2">Obstetrics and Gynecology</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" data-bs-toggle="tab" href="#tab-3">Hepatology</a>
+                <a className="nav-link" data-bs-toggle="tab" href="#tab-3">Laboratory Services</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" data-bs-toggle="tab" href="#tab-4">Pediatrics</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" data-bs-toggle="tab" href="#tab-5">Ophthalmology(Eye Care)</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" data-bs-toggle="tab" href="#tab-6">Physiotherapy</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" data-bs-toggle="tab" href="#tab-7">Family Medicine</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" data-bs-toggle="tab" href="#tab-8">Emergency and Trauma</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" data-bs-toggle="tab" href="#tab-9">Anesthegia</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" data-bs-toggle="tab" href="#tab-10">Dental and Maxillofacial</a>
               </li>
             </ul>
           </div>
@@ -165,9 +175,9 @@ const Index  = () => {
               <div className="tab-pane active show" id="tab-1">
                 <div className="row gy-4">
                   <div className="col-lg-8 details order-2 order-lg-1">
-                    <h3>Cardiology</h3>
-                    <p className="fst-italic">A branch of medicine that specializes in diagnosing and treating diseases of the heart, blood vessels, and circulatory system.</p>
-                    <p>Cardiology is a branch of medicine that deals with disorders of the heart and the cardiovascular system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology.</p>
+                    <h3>Surgery</h3>
+                    <p className="fst-italic">The Medical-Surgical Unit provides care to patients who are hospitalized with a wide variety of conditions.</p>
+                    <p>Including pneumonia, stroke and fractures. Our caregivers also prepare patients for surgical procedures and provide post-surgical care required until the time of discharge. Private rooms are available for patients requiring isolation or other special treatments. Our nursing staff has a wide range of training and experience, providing treatment for those ranging in age from the young adult to end of life patients.</p>
                   </div>
                   <div className="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/dept/departments-1.jpg" alt="" className="img-fluid" />
@@ -177,7 +187,7 @@ const Index  = () => {
               <div className="tab-pane" id="tab-2">
                 <div className="row gy-4">
                   <div className="col-lg-8 details order-2 order-lg-1">
-                    <h3>Neurology</h3>
+                    <h3>Obstetrics and Gynecology</h3>
                     <p className="fst-italic">Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system.</p>
                     <p>Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment of all categories of conditions and disease involving the brain, the spinal cord and the peripheral nerves.</p>
                   </div>
@@ -241,10 +251,12 @@ const Index  = () => {
 
           <div className="col-lg-3">
             <div className="member d-flex align-items-start">
-              <div className="pic"><img src="assets/img/doctors/doctors-1.jpg" className="img-fluid" alt="" /></div>
+              {/* <div className="pic"><img src="assets/img/team/buhCMD.jpg" className="img-fluid" alt="" /></div> */}
               <div className="member-info">
-                <h4>Walter White</h4>
+              <img src="assets/img/team/buhCMD.jpg" className="img-fluid" alt="" />
+                <h4>Dr. Dogo Muhammed</h4>
                 <span>Chief Medical Officer</span>
+                
                 <div className="social">
                   <a href=""><i className="ri-twitter-fill"></i></a>
                   <a href=""><i className="ri-facebook-fill"></i></a>
@@ -259,8 +271,10 @@ const Index  = () => {
             <div className="member d-flex align-items-start">
               <div className="pic"><img src="assets/img/doctors/doctors-2.jpg" className="img-fluid" alt="" /></div>
               <div className="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Anesthesiologist</span>
+              <img src="assets/img/team/buhCMAC.jpg" className="img-fluid" alt="" />
+                <h4>Dr. Usman Gwaram</h4>
+                <span>Director of Clinical Services</span>
+                
                 <div className="social">
                   <a href=""><i className="ri-twitter-fill"></i></a>
                   <a href=""><i className="ri-facebook-fill"></i></a>
@@ -275,8 +289,10 @@ const Index  = () => {
             <div className="member d-flex align-items-start">
               <div className="pic"><img src="assets/img/doctors/doctors-3.jpg" className="img-fluid" alt="" /></div>
               <div className="member-info">
-                <h4>William Anderson</h4>
-                <span>Cardiology</span>
+              <img src="assets/img/team/buhDA.jpg" className="img-fluid" alt="" />
+                <h4>Dr. Taofeek Uthman</h4>
+                <span>Director of Administration</span>
+                
                 <div className="social">
                   <a href=""><i className="ri-twitter-fill"></i></a>
                   <a href=""><i className="ri-facebook-fill"></i></a>
@@ -291,8 +307,28 @@ const Index  = () => {
             <div className="member d-flex align-items-start">
               <div className="pic"><img src="assets/img/doctors/doctors-4.jpg" className="img-fluid" alt="" /></div>
               <div className="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Neurosurgeon</span>
+              <img src="assets/img/team/buhGyn.jpg" className="img-fluid" alt="" />
+                <h4>Dr. Godae Donbaridam</h4>
+                <span>Gynecology and Obstetrics</span>
+                
+                <div className="social">
+                  <a href=""><i className="ri-twitter-fill"></i></a>
+                  <a href=""><i className="ri-facebook-fill"></i></a>
+                  <a href=""><i className="ri-instagram-fill"></i></a>
+                  <a href=""> <i className="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-3 mt-4 mt-lg-0">
+            <div className="member d-flex align-items-start">
+              
+              <div className="member-info">
+              <img src="assets/img/team/buhdrZainab.jpg" className="img-fluid" alt="" />
+                <h4>Dr. Zainab Mustapha Abubakar</h4>
+                <span>Chemical Pathologist</span>
+                
                 <div className="social">
                   <a href=""><i className="ri-twitter-fill"></i></a>
                   <a href=""><i className="ri-facebook-fill"></i></a>
