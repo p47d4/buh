@@ -15,12 +15,6 @@ return (
                     <h4>{name}</h4>
                     <span>{position}</span>
                 
-                    <div className="social">
-                        <a href="/"><i className="ri-twitter-fill"></i></a>
-                        <a href="/"><i className="ri-facebook-fill"></i></a>
-                        <a href="/"><i className="ri-instagram-fill"></i></a>
-                        <a href="/"> <i className="ri-linkedin-box-fill"></i> </a>
-                    </div>
                 </div>
             </div>
         </div>
