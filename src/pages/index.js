@@ -3,6 +3,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 // import Accordion from './accordion';
 // import './accordion.css';
+import { Link } from 'react-router-dom';
 
 import HeroSlider from '../components/HeroSlider';
 
@@ -163,7 +164,7 @@ const Index  = () => {
                 <a className="nav-link" data-bs-toggle="tab" href="#tab-8">Emergency and Trauma</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" data-bs-toggle="tab" href="#tab-9">Anesthesia</a>
+                <a className="nav-link" data-bs-toggle="tab" href="#tab-9">Anesthegia</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" data-bs-toggle="tab" href="#tab-10">Dental and Maxillofacial</a>
@@ -188,11 +189,8 @@ const Index  = () => {
                 <div className="row gy-4">
                   <div className="col-lg-8 details order-2 order-lg-1">
                     <h3>Obstetrics and Gynecology</h3>
-                    <p className="fst-italic">Baze university Hospital Obstetrics and Gynaecology offers a wide range of Gynaecological services</p>
-                    <p> viz General Gynaecology and Obstetrics
-Fetomaternal services screening for Gynaecological cancers laparoscopic Gynaecological surgeries 
-Diagnostic and therapeutic Hysteroscopy
- Assisted Reproduction Technology services including IVF Freezing of Embryos and Gamates and Pre Genetic Diagnosis.</p>
+                    <p className="fst-italic">Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system.</p>
+                    <p>Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment of all categories of conditions and disease involving the brain, the spinal cord and the peripheral nerves.</p>
                   </div>
                   <div className="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/dept/departments-2.jpg" alt="" className="img-fluid" />
@@ -202,12 +200,9 @@ Diagnostic and therapeutic Hysteroscopy
               <div className="tab-pane" id="tab-3">
                 <div className="row gy-4">
                   <div className="col-lg-8 details order-2 order-lg-1">
-                    <h3>Laboratory Services</h3>
-                    <p className="fst-italic">Laboratory services</p>
-                    <p>•	Chemical pathology
-•	Hematology and blood transfusion
-•	Microbiology and molecular laboratory
-•	Histopathology and forensics</p>
+                    <h3>Hepatology</h3>
+                    <p className="fst-italic">Hepatology is a branch of medicine concerned with the study, prevention, diagnosis, and management of diseases that affect the liver, gallbladder, biliary tree, and pancreas.</p>
+                    <p>Hepatology is the branch of medicine that incorporates the study of liver, gallbladder, biliary tree, and pancreas as well as management of their disorders.</p>
                   </div>
                   <div className="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/dept/departments-3.jpg" alt="" className="img-fluid" />
@@ -230,78 +225,11 @@ Diagnostic and therapeutic Hysteroscopy
                 <div className="row gy-4">
                   <div className="col-lg-8 details order-2 order-lg-1">
                     <h3>Ophthalmology(Eye Care)</h3>
-                    <p className="fst-italic">Some of the most common everyday procedures that an ophthalmologist will perform include diagnosing and monitoring mild eye and vision conditions.</p>
-                    <p> They will also spend time prescribing and fitting glasses and contact lenses to correct vision problems.
-                      Our ophthalmology department encompasses routine eye check ups, refraction services ,eye surgeries(includinf glacoma, cataract and so on).We offer routine artificial eye care and much more concerning the human eye for infants, children and adults.
-                    </p>
+                    <p className="fst-italic">Ophthalmology is the study of medical conditions relating to the eye.</p>
+                    <p>Some of the most common everyday procedures that an ophthalmologist will perform include diagnosing and monitoring mild eye and vision conditions. They will also spend time prescribing and fitting glasses and contact lenses to correct vision problems.</p>
                   </div>
                   <div className="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/dept/departments-5.jpg" alt="" className="img-fluid" />
-                  </div>
-                </div>
-              </div>
-
-              <div className="tab-pane" id="tab-6">
-                <div className="row gy-4">
-                  <div className="col-lg-8 details order-2 order-lg-1">
-                    <h3>Physiotherapy</h3>
-                    <p className="fst-italic">We believe in creating long-term, optimal health for you by promoting, maintaining, restoring and preventing physical, social and psychological well-being of our patients</p>
-                    <p>Our physiotherapy department is a  rehabilitation and physiotherapy centre that offers a unique approach to recovery and well-being. We provide the best Physiotherapy in Abuja and Nasarawa state to assist you with your pain and injuries. We provide treatments such as  Massage Therapy, Hydrotherapy, Yoga, and Podiatry for your optimal health.</p>
-                  </div>
-                  <div className="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/dept/departments-4.jpg" alt="" className="img-fluid" />
-                  </div>
-                </div>
-              </div>
-
-              <div className="tab-pane" id="tab-7">
-                <div className="row gy-4">
-                  <div className="col-lg-8 details order-2 order-lg-1">
-                    <h3>Family Medicine</h3>
-                    <p className="fst-italic">The aim of medicine is to prevent disease and prolong life; the ideal of medicine is to eliminate the need of a physician.</p>
-                    <p>Family Medicine is the medical specialty that provides continuing, coordinated and comprehensive health care for all individuals in a holistic manner regardless of age, gender and affected organ or system in the context of family and community. It stands on the principles of comprehensiveness, continuity, coordination and accessibility.</p>
-                  </div>
-                  <div className="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/dept/departments-4.jpg" alt="" className="img-fluid" />
-                  </div>
-                </div>
-              </div>
-              <div className="tab-pane" id="tab-8">
-                <div className="row gy-4">
-                  <div className="col-lg-8 details order-2 order-lg-1">
-                    <h3>Emergency and Trauma</h3>
-                    <p className="fst-italic">A medical treatment facility specializing in emergency medicine, the acute care of patients who present without prior appointment.</p>
-                    <p>Due to the unplanned nature of patient attendance, the department must provide initial treatment for a broad spectrum of illnesses and injuries, some of which may be life-threatening and require immediate attention.</p>
-                  </div>
-                  <div className="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/dept/departments-4.jpg" alt="" className="img-fluid" />
-                  </div>
-                </div>
-              </div>
-              <div className="tab-pane" id="tab-9">
-                <div className="row gy-4">
-                  <div className="col-lg-8 details order-2 order-lg-1">
-                    <h3>Anaesthesia</h3>
-                    <p className="fst-italic">At Baze Univrsity Hospital, our anesthesics is concerned with total perioperative care of patients before, during and after surgery.</p>
-                    <p> The core element of the specialty is the study and use of anesthesia to safely support a patient’s vital functions through the perioperative period.</p>
-                    <p>We provide provide different types of anesthesia here in Baze University Hospital like : General anesthesia, monitored anesthesia or IV sedation , Regional anesthesia, local anesthesia and more.</p>
-                  </div>
-                  <div className="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/dept/departments-4.jpg" alt="" className="img-fluid" />
-                  </div>
-                </div>
-              </div>
-              <div className="tab-pane" id="tab-10">
-                <div className="row gy-4">
-                  <div className="col-lg-8 details order-2 order-lg-1">
-                    <h3>Dental and Maxillofacial</h3>
-                    <p className="fst-italic">Our Dental Clinic is a private practice dedicated to providing you with the highest standard of dental care in Abuja.</p>
-                    <p> We provide quality dental treatments, and service. We want you to relax in our practice, confident in the knowledge that you are getting the best treatment, with great dentists to fulfill all your dental needs.
-
-Our dedicated and welcoming team is enthusiastic and progressive in their approach to dentistry and their service to you.</p>
-                  </div>
-                  <div className="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/dept/departments-4.jpg" alt="" className="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -317,7 +245,6 @@ Our dedicated and welcoming team is enthusiastic and progressive in their approa
 
         <div className="section-title">
           <h2>Doctors</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div className="row">
@@ -331,10 +258,10 @@ Our dedicated and welcoming team is enthusiastic and progressive in their approa
                 <span>Chief Medical Officer</span>
                 
                 <div className="social">
-                  <a href=""><i className="ri-twitter-fill"></i></a>
-                  <a href=""><i className="ri-facebook-fill"></i></a>
-                  <a href=""><i className="ri-instagram-fill"></i></a>
-                  <a href=""> <i className="ri-linkedin-box-fill"></i> </a>
+                  <a href="/"><i className="ri-twitter-fill"></i></a>
+                  <a href="/"><i className="ri-facebook-fill"></i></a>
+                  <a href="/"><i className="ri-instagram-fill"></i></a>
+                  <a href="/"> <i className="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -349,10 +276,10 @@ Our dedicated and welcoming team is enthusiastic and progressive in their approa
                 <span>Director of Clinical Services</span>
                 
                 <div className="social">
-                  <a href=""><i className="ri-twitter-fill"></i></a>
-                  <a href=""><i className="ri-facebook-fill"></i></a>
-                  <a href=""><i className="ri-instagram-fill"></i></a>
-                  <a href=""> <i className="ri-linkedin-box-fill"></i> </a>
+                  <a href="/"><i className="ri-twitter-fill"></i></a>
+                  <a href="/"><i className="ri-facebook-fill"></i></a>
+                  <a href="/"><i className="ri-instagram-fill"></i></a>
+                  <a href="/"> <i className="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -367,10 +294,10 @@ Our dedicated and welcoming team is enthusiastic and progressive in their approa
                 <span>Director of Administration</span>
                 
                 <div className="social">
-                  <a href=""><i className="ri-twitter-fill"></i></a>
-                  <a href=""><i className="ri-facebook-fill"></i></a>
-                  <a href=""><i className="ri-instagram-fill"></i></a>
-                  <a href=""> <i className="ri-linkedin-box-fill"></i> </a>
+                  <a href="/"><i className="ri-twitter-fill"></i></a>
+                  <a href="/"><i className="ri-facebook-fill"></i></a>
+                  <a href="/"><i className="ri-instagram-fill"></i></a>
+                  <a href="/"> <i className="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -385,10 +312,10 @@ Our dedicated and welcoming team is enthusiastic and progressive in their approa
                 <span>Gynecology and Obstetrics</span>
                 
                 <div className="social">
-                  <a href=""><i className="ri-twitter-fill"></i></a>
-                  <a href=""><i className="ri-facebook-fill"></i></a>
-                  <a href=""><i className="ri-instagram-fill"></i></a>
-                  <a href=""> <i className="ri-linkedin-box-fill"></i> </a>
+                  <a href="/"><i className="ri-twitter-fill"></i></a>
+                  <a href="/"><i className="ri-facebook-fill"></i></a>
+                  <a href="/"><i className="ri-instagram-fill"></i></a>
+                  <a href="/"> <i className="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -403,15 +330,19 @@ Our dedicated and welcoming team is enthusiastic and progressive in their approa
                 <span>Chemical Pathologist</span>
                 
                 <div className="social">
-                  <a href=""><i className="ri-twitter-fill"></i></a>
-                  <a href=""><i className="ri-facebook-fill"></i></a>
-                  <a href=""><i className="ri-instagram-fill"></i></a>
-                  <a href=""> <i className="ri-linkedin-box-fill"></i> </a>
+                  <a href="/"><i className="ri-twitter-fill"></i></a>
+                  <a href="/"><i className="ri-facebook-fill"></i></a>
+                  <a href="/"><i className="ri-instagram-fill"></i></a>
+                  <a href="/"> <i className="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
           </div>
 
+        </div>
+
+        <div className="text-center">
+          <Link to="/staffList" className="btn-link"><span>View All Doctors</span></Link>
         </div>
 
       </div>
@@ -427,7 +358,7 @@ Our dedicated and welcoming team is enthusiastic and progressive in their approa
         <div className="faq-list">
           <ul>
             <li data-aos="fade-up">
-              <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" className="collapsed" data-bs-target="#faq-list-1">HOW FREQUENTLY IS A HEALTH CHECK-UP REQUIRED? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+              <i className="bx bx-help-circle icon-help"></i> <a href="/" data-bs-toggle="collapse" className="collapsed" data-bs-target="#faq-list-1">HOW FREQUENTLY IS A HEALTH CHECK-UP REQUIRED? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" className="collapse show" data-bs-parent=".faq-list">
                 <p>The interval is specific to an individual depending on their health status. 
                   The general classification would be that beyond the age of 40 an individual 
@@ -446,7 +377,7 @@ Our dedicated and welcoming team is enthusiastic and progressive in their approa
             </li>
 
             <li data-aos="fade-up" data-aos-delay="100">
-              <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" className="collapse">WHO REQUIRES A HEALTH CHECK-UP? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+              <i className="bx bx-help-circle icon-help"></i> <a href="/" data-bs-toggle="collapse" data-bs-target="#faq-list-2" className="collapse">WHO REQUIRES A HEALTH CHECK-UP? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" className="collapse" data-bs-parent=".faq-list">
                 <p>
                   Everyone needs a health check-up, no matter how healthy an individual is. 
@@ -461,7 +392,7 @@ Our dedicated and welcoming team is enthusiastic and progressive in their approa
             </li>
 
             <li data-aos="fade-up" data-aos-delay="200">
-              <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" className="collapsed">HOW IS THE HEALTH CHECK-UP CONDUCTED? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+              <i className="bx bx-help-circle icon-help"></i> <a href="/" data-bs-toggle="collapse" data-bs-target="#faq-list-3" className="collapsed">HOW IS THE HEALTH CHECK-UP CONDUCTED? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" className="collapse" data-bs-parent=".faq-list">
                 <p>
                   We carry all the assessments in a peaceful and welcoming atmosphere. 
@@ -476,7 +407,7 @@ Our dedicated and welcoming team is enthusiastic and progressive in their approa
             </li>
 
             <li data-aos="fade-up" data-aos-delay="300">
-              <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" className="collapsed">WHAT IS THE HEALTH CHECK-UP ABOUT? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+              <i className="bx bx-help-circle icon-help"></i> <a href="/" data-bs-toggle="collapse" data-bs-target="#faq-list-4" className="collapsed">WHAT IS THE HEALTH CHECK-UP ABOUT? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-4" className="collapse" data-bs-parent=".faq-list">
                 <p>
                   A health check-up allows you to “know your numbers”.
@@ -501,7 +432,7 @@ Our dedicated and welcoming team is enthusiastic and progressive in their approa
             </li>
 
             <li data-aos="fade-up" data-aos-delay="400">
-              <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" className="collapsed">WHY DO I NEED A HEALTH CHECK-UP? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+              <i className="bx bx-help-circle icon-help"></i> <a href="/" data-bs-toggle="collapse" data-bs-target="#faq-list-5" className="collapsed">WHY DO I NEED A HEALTH CHECK-UP? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-5" className="collapse" data-bs-parent=".faq-list">
                 <p>
                   Regular medical check-ups are important to verify that you are in a 
