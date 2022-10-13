@@ -14,9 +14,6 @@ import Booking from './pages/booking';
 import Directors_message from './pages/directors_message';
 import Accordion from './pages/accordion';
 
-import Staff from './pages/staff';
-import StaffList from './pages/staffList';
-
 import Login from './components/login_component.js';
 import SignUp from './components/signup_component.js';
 import UserDetails from './components/userDetails.js';
@@ -40,8 +37,6 @@ root.render(
         <Route path="/sign-in" element={<Login />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/userDetails" element={<UserDetails />} />
-        <Route path="/Staff" element={<Staff />} />
-        <Route path="/StaffList" element={<StaffList />} />
       </Routes>
       </div>
     </div>

@@ -24,7 +24,7 @@ const HeroSlider = () => {
                         <div className="mx-4 row">
                             
                             <a href="/patient/register"className="btn btn-outline-light col">Register</a>
-                            <a href="https://www.youtube.com/watch?v=vunzMowSQAQ" className="btn btn-outline-info col" target="_blank"rel="noreferrer">Watch Video</a>
+                            <a href="https://www.youtube.com/watch?v=vunzMowSQAQ" className="btn btn-outline-info col" target="_blank">Watch Video</a>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>

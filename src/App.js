@@ -1,3 +1,4 @@
+import logo from './logo.svg';
 import Index from './pages';
 import './App.css';
 

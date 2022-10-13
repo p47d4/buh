@@ -31,7 +31,6 @@ const header = () => {
                 <nav id="navbar" className="navbar">
                     <ul>
                         <li><Link to="/booking"><span>Appointment</span></Link></li>
-                        <li><Link to="/staffList"><span>All Staff</span></Link></li>
                         {/* <a className="nav-link" href="http://www.bazeuniversityhospital.com/patient/register">Patient Registration</a> */}
                         <li><a className="nav-link" href="/sign-up">Patient Registration</a></li>
                         <li className="dropdown">
