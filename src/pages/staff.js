@@ -14,7 +14,6 @@ return (
                     <img src={imgUrl} className="img-fluid" alt="staff-jpegs" />
                     <h4>{name}</h4>
                     <span>{position}</span>
-                
                 </div>
             </div>
         </div>
