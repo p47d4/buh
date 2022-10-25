@@ -33,9 +33,9 @@ const HeroSlider = () => {
                     
                     <img 
                         className="d-block w-100"
-                        src="assets/img/home-slider/buhHERO3.jpeg"
+                        src="assets/img/home-slider/buhHERO5.jpg"
                         alt="First slide"
-                        height='700px'
+                        height='800px'
                         filter='brightness(50%)'
                     />
                     <Carousel.Caption>
