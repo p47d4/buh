@@ -41,20 +41,21 @@ const staffListItems = [
 return (
 	<>
 		<Header />
+		
 		<section id="doctors" className="doctors">
-        <div className="container">
-            <div className="section-title">
-                <h2>Doctors</h2>
-            </div>
-            <div className="row">
+			<div className="container">
+				<div className="section-title">
+					<h2>Doctors</h2>
+				</div>
+				<div className="row">
 
-				{staffListItems.map((post, index) => (
-					<Staff key={index} index={index} post={post} />
-				))}
-				
+					{staffListItems.map((post, index) => (
+						<Staff key={index} index={index} post={post} />
+					))}
 				</div>
             </div>
         </section>
+
 		<Footer />
 	</>
 );

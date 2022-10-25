@@ -3,6 +3,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 // import Accordion from './accordion';
 // import './accordion.css';
+import { Link } from 'react-router-dom';
 
 import HeroSlider from '../components/HeroSlider';
 
@@ -335,7 +336,6 @@ Our dedicated and welcoming team is enthusiastic and progressive in their approa
 
           <div className="col-lg-3 mt-4 mt-lg-0">
             <div className="member d-flex align-items-start">
-              <div className="pic"><img src="assets/img/doctors/doctors-2.jpg" className="img-fluid" alt="" /></div>
               <div className="member-info">
               <img src="assets/img/team/buhCMAC.jpg" className="img-fluid" alt="" />
                 <h4>Dr. Usman Gwaram</h4>
@@ -346,7 +346,6 @@ Our dedicated and welcoming team is enthusiastic and progressive in their approa
 
           <div className="col-lg-3 mt-4">
             <div className="member d-flex align-items-start">
-              <div className="pic"><img src="assets/img/doctors/doctors-3.jpg" className="img-fluid" alt="" /></div>
               <div className="member-info">
               <img src="assets/img/team/buhDA.jpg" className="img-fluid" alt="" />
                 <h4>Dr. Taofeek Uthman</h4>
@@ -357,7 +356,6 @@ Our dedicated and welcoming team is enthusiastic and progressive in their approa
 
           <div className="col-lg-3 mt-4">
             <div className="member d-flex align-items-start">
-              <div className="pic"><img src="assets/img/doctors/doctors-4.jpg" className="img-fluid" alt="" /></div>
               <div className="member-info">
               <img src="assets/img/team/buhGyn.jpg" className="img-fluid" alt="" />
                 <h4>Dr. Godae Donbaridam</h4>
@@ -373,11 +371,14 @@ Our dedicated and welcoming team is enthusiastic and progressive in their approa
               <img src="assets/img/team/buhdrZainab.jpg" className="img-fluid" alt="" />
                 <h4>Dr. Zainab Mustapha Abubakar</h4>
                 <span>Chemical Pathologist</span>
-                
-                 
               </div>
             </div>
           </div>
+
+          <div className="text-center">
+            <Link to="/staffList" className="btn-link"><span>View All Doctors</span></Link>
+          </div>
+
 
         </div>
 
